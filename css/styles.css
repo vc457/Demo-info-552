@@ -356,6 +356,19 @@ body {
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+h1 p, h2 p, h3 p, h4 p, h5 p {
+  padding: 0;
+  margin: 0;
+}
+h1 ul, h2 ul, h3 ul, h4 ul, h5 ul {
+  padding: 0;
+  margin: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -382,6 +395,15 @@ textarea {
 /* =============
     Navigation
 ============= */
+.SeaGreenLink:link, .SeaGreenLink:visted {
+  color: var(--darkseagreen);
+  text-decoration: none;
+}
+
+.DarkGreenLink:hover, .DarkGreenLink:active {
+  color: green;
+}
+
 nav {
   background-color: var(--darkseagreen);
 }
@@ -392,14 +414,22 @@ nav {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--gray);
+}
+footer #footer-bottom {
+  background-color: var(--charcoal);
+}
+
 /* =============
     index
 ============= */
-#index a:link, #index a:visted {
+#index-left a:link, #index-left a:visted {
   color: var(--darkseagreen);
+  text-decoration: none;
 }
-#index a:hover, #index a:active {
-  color: red;
+#index-left a:hover, #index-left a:active {
+  color: green;
 }
 
 /* =============

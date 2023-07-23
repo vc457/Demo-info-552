@@ -2,7 +2,8 @@
     Base
 ============= */
 body{
-    background-color: var(--gray);
+    background-color: var(--gray)
+
 }
 
 .content-grid{
@@ -14,8 +15,4 @@ body{
         background-color: var(--white);
         grid-area: content;
     }
-}
-
-#main-content-right{
-     
 }
