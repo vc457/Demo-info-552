@@ -13,10 +13,6 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
-  --darkseagreen: #8fbc8f;
-  --gray: #f0f0f0
-  --light gray: #fafafa;
-  --charcoal: #404040;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -335,24 +331,6 @@ template {
 /* =============
     Base
 ============= */
-body {
-  background-color: var(--gray);
-}
-
-.content-grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 16px auto 16px;
-  grid-template-columns: 16px auto 16px;
-      grid-template-areas: ". content .";
-}
-.content-grid .content-grid-item {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  background-color: var(--white);
-  grid-area: content;
-}
-
 /* =============
     Typography
 ============= */
@@ -382,26 +360,9 @@ textarea {
 /* =============
     Navigation
 ============= */
-nav {
-  background-color: var(--darkseagreen);
-}
-
 /* =============
     Header
 ============= */
 /* =============
     Footer
-============= */
-/* =============
-    index
-============= */
-#index a:link, #index a:visted {
-  color: var(--darkseagreen);
-}
-#index a:hover, #index a:active {
-  color: red;
-}
-
-/* =============
-    education
 ============= */

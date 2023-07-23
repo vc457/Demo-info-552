@@ -1,3 +1,18 @@
 /* =============
     Navigation
 ============= */
+// sea green / dark green link
+// love // hate
+.SeaGreenLink:link, .SeaGreenLink:visted{
+    color: var(--darkseagreen)
+    text-decoration; none;
+}
+
+.DarkGreenLink:hover, .DarkGreenLink:active{
+    color: green
+}
+
+nav{
+    background-color: var(--darkseagreen)
+
+}
