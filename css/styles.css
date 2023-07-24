@@ -346,11 +346,27 @@ body {
   grid-template-columns: 16px auto 16px;
       grid-template-areas: ". content .";
 }
+@media (min-width: 1200px) {
+  .content-grid {
+    -ms-grid-columns: auto 1200px auto;
+    grid-template-columns: auto 1200px auto;
+  }
+}
 .content-grid .content-grid-item {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   background-color: var(--white);
   grid-area: content;
+}
+
+@media (min-width: 1024px) {
+  #main-content-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 24px auto;
+    grid-template-columns: 60% auto;
+    gap: 24px;
+  }
 }
 
 /* =============
@@ -415,10 +431,19 @@ nav {
     Footer
 ============= */
 footer {
-  background-color: var(--gray);
+  background-color: var(--charcoal);
 }
 footer #footer-bottom {
   background-color: var(--charcoal);
+      grid-template-areas: "fb fb";
+}
+@media (min-width: 768px) {
+  footer #footer-bottom {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: fb;
+  }
 }
 
 /* =============

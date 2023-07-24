@@ -2,8 +2,14 @@
     Footer
 ============= */
 footer{
-    background-color: var(--gray);
+    background-color: var(--charcoal);
     #footer-bottom{
         background-color: var(--charcoal);
+        grid-template-areas: 
+        "fb fb";
+
+        @include md{
+            grid-area: fb;
+        }
     }
 }
