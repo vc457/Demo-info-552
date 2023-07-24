@@ -2,15 +2,29 @@
     index
 ============= */
 #index-left{
+    padding: 0 16px;
+    h1{
+        padding-bottom: 24px;
+    }
+    p{
+        padding-bottom: 16px;
+    }
+
+    h2{
+        padding-bottom: 24px;
+    }
+
     // love // hate
     a:link, a:visted{
         color: var(--darkseagreen);
         text-decoration: none;
     }
-
     a:hover, a:active {
-        color: green;
+       color: teal;
     }
 
+    ul{
+        padding-left: 24px;
+    }
     //
 }

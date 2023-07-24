@@ -339,6 +339,20 @@ body {
   background-color: var(--gray);
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
 .content-grid {
   display: -ms-grid;
   display: grid;
@@ -368,19 +382,36 @@ body {
     gap: 24px;
   }
 }
+@media (min-width: 1200px) {
+  #main-content-grid {
+    -ms-grid-columns: 70% auto;
+    grid-template-columns: 70% auto;
+  }
+}
+@media (min-width: 1440px) {
+  #main-content-grid {
+    -ms-grid-columns: 75% auto;
+    grid-template-columns: 75% auto;
+  }
+}
+#main-content-grid img {
+  margin-top: -50px;
+  width: 150px;
+}
+#main-content-grid h2 {
+  padding-bottom: 16px;
+}
+
+#main-content-right {
+  border: 1px solid lightgray;
+  margin: 150px 16px 16px;
+  padding: 16px;
+}
 
 /* =============
     Typography
 ============= */
 h1, h2, h3, h4, h5 {
-  padding: 0;
-  margin: 0;
-}
-h1 p, h2 p, h3 p, h4 p, h5 p {
-  padding: 0;
-  margin: 0;
-}
-h1 ul, h2 ul, h3 ul, h4 ul, h5 ul {
   padding: 0;
   margin: 0;
 }
@@ -427,11 +458,16 @@ nav {
 /* =============
     Header
 ============= */
+header {
+  padding: 48px 0;
+}
+
 /* =============
     Footer
 ============= */
 footer {
   background-color: var(--charcoal);
+  padding: 24px;
 }
 footer #footer-bottom {
   background-color: var(--charcoal);
@@ -449,12 +485,27 @@ footer #footer-bottom {
 /* =============
     index
 ============= */
+#index-left {
+  padding: 0 16px;
+}
+#index-left h1 {
+  padding-bottom: 24px;
+}
+#index-left p {
+  padding-bottom: 16px;
+}
+#index-left h2 {
+  padding-bottom: 24px;
+}
 #index-left a:link, #index-left a:visted {
   color: var(--darkseagreen);
   text-decoration: none;
 }
 #index-left a:hover, #index-left a:active {
-  color: green;
+  color: teal;
+}
+#index-left ul {
+  padding-left: 24px;
 }
 
 /* =============
