@@ -5,13 +5,22 @@
     padding: 0 16px;
     h1{
         padding-bottom: 24px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: rem-calc(20);
+        font-weight: 200;
+        letter-spacing: rem-calc(2)
     }
     p{
         padding-bottom: 16px;
+        line-height: 1.5;
     }
 
     h2{
         padding-bottom: 24px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: rem-calc(18);
     }
 
     // love // hate
@@ -25,6 +34,7 @@
 
     ul{
         padding-left: 24px;
+        margin-bottom: 8px;
     }
     //
 }

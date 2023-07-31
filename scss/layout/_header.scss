@@ -3,4 +3,28 @@
 ============= */
 header{
     padding: 48px 0;
+    text-align: center;
+    a:link, a:visited{
+        color: var(--black);
+        transition: 0.25s;
+        text-decoration: none;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 300;
+        // font-size: 36px;
+        font-size: rem-calc(36);
+        letter-spacing: rem-calc(2)
+
+
+    }
+    a:hover, a:active{
+        color: var(--darkseagreen)
+    } 
+
+    p{
+        font-size: rem-calc(30);
+        font-weight: 200;
+        margin-top: 8px;
+        letter-spacing: rem-calc(1);
+        color: var(--charcoal);
+    }
 }
