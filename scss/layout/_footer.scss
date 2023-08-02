@@ -3,7 +3,9 @@
 ============= */
 footer{
     background-color: var(--charcoal);
+    font-size: rem-calc(18);
     #footer-bottom{
+        text-align: center;
         background-color: var(--charcoal);
         grid-template-areas: 
         "fb fb";
