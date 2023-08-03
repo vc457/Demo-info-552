@@ -35,6 +35,7 @@ p{
     }
 }
 #main-content-grid {
+    margin-top: 300px;
     @include lg{
         display: grid;
         grid-template-columns: 60% auto;
@@ -50,10 +51,16 @@ p{
     //     margin-top: -50px;
     //     width: 150px;
     // }
+    h1{
+        padding-bottom: 16px;
+        margin-top: 16px;
+        font-size: rem-calc(10);
+        letter-spacing: (2);
+    }
     h2{
         padding-bottom: 16px;
         margin-top: 16px;
-        font-size: rem-calc (14);
+        font-size: rem-calc(14);
         letter-spacing: (2);
     }
     p{
