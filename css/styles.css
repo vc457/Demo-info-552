@@ -375,7 +375,7 @@ ul li {
 }
 
 #main-content-grid {
-  margin-top: 300px;
+  margin-top: 200px;
 }
 @media (min-width: 1024px) {
   #main-content-grid {
@@ -711,12 +711,9 @@ footer #footer-validator {
 /* =============
     education
 ============= */
-#projects-left {
-  padding: 16px;
-}
-
-#associations-left {
-  color: red;
+#associations-left p {
+  margin-top: 16px;
+  margin-bottom: 40px;
 }
 
 /* =============

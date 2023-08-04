@@ -35,7 +35,7 @@ p{
     }
 }
 #main-content-grid {
-    margin-top: 300px;
+    margin-top: 200px;
     @include lg{
         display: grid;
         grid-template-columns: 60% auto;
