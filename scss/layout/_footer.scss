@@ -11,12 +11,14 @@ footer{
         background-color: var(--charcoal);
        h2{
         font-size: rem-calc(16);
+        color: white;
        }
     }
 
     #footer-validator{
         margin-top: 26px;
         text-align: center;
+        
         // align-items: center;
     }
    

@@ -656,6 +656,7 @@ footer #footer-bottom {
 }
 footer #footer-bottom h2 {
   font-size: 1rem;
+  color: white;
 }
 footer #footer-validator {
   margin-top: 26px;
@@ -714,6 +715,12 @@ footer #footer-validator {
 #associations-left p {
   margin-top: 16px;
   margin-bottom: 40px;
+}
+#associations-left #MASL {
+  width: 30%;
+}
+#associations-left #SLJ {
+  width: 30%;
 }
 
 /* =============
