@@ -512,6 +512,8 @@ html {
 nav {
   background-color: var(--darkseagreen);
   display: none;
+  -webkit-box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+          box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
 @media (min-width: 1024px) {
   nav {
@@ -531,7 +533,6 @@ nav {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
     padding: 16px;
     border-bottom: 2px solid #008B8B;
   }
@@ -561,14 +562,12 @@ header {
   padding: 16px;
   position: fixed;
   width: 100%;
-  background-color: var(--gray);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
-          box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
   top: 0;
   left: 0;
   text-align: center;
+  background-color: var(--white);
 }
 header h1 {
   font-size: 25px;
@@ -649,27 +648,18 @@ header nav {
 ============= */
 footer {
   background-color: var(--charcoal);
-  font-size: 1.125rem;
   padding: 24px;
 }
 footer #footer-bottom {
   text-align: center;
   background-color: var(--charcoal);
-      grid-template-areas: "fb fb";
 }
-@media (min-width: 768px) {
-  footer #footer-bottom {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: fb;
-  }
+footer #footer-bottom h2 {
+  font-size: 1rem;
 }
-footer #footer-bottom #footer-validator {
+footer #footer-validator {
   margin-top: 26px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 /* =============
@@ -715,5 +705,34 @@ footer #footer-bottom #footer-validator {
     education
 ============= */
 #education-left {
+  padding: 16px;
+}
+
+/* =============
+    education
+============= */
+#projects-left {
+  padding: 16px;
+}
+
+#associations-left {
+  color: red;
+}
+
+/* =============
+    education
+============= */
+#Contact-left {
+  padding: 16px;
+}
+
+#contact-list li {
+  list-style: none;
+}
+
+/* =============
+    education
+============= */
+#projects-left {
   padding: 16px;
 }

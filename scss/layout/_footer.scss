@@ -3,23 +3,23 @@
 ============= */
 footer{
     background-color: var(--charcoal);
-    font-size: rem-calc(18);
     
+    padding: 24px;
+
     #footer-bottom{
         text-align: center;
         background-color: var(--charcoal);
-        grid-template-areas: 
-        "fb fb";
+       h2{
+        font-size: rem-calc(16);
+       }
+    }
 
-        @include md{
-            grid-area: fb;
-        } 
     #footer-validator{
         margin-top: 26px;
-        align-items: center;
+        text-align: center;
+        // align-items: center;
     }
-    }
-    padding: 24px;
+   
 }
 
 
